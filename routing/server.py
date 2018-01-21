@@ -1,10 +1,8 @@
 from tozti.utils import RouterDef
 from aiohttp import web
-from tozti import logger
-
 
 router = RouterDef()
-foo = router.add_resource('/hello_world')
+foo = router.add_route('/hello_world')
 
 
 @foo.get
