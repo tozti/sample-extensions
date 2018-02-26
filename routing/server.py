@@ -12,5 +12,6 @@ async def foo_get(req):
 
 
 MANIFEST = {
+    'name': 'routing',
     'router': router,
 }
